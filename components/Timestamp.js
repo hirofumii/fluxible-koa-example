@@ -6,7 +6,7 @@ import { connectToStores } from 'fluxible-addons-react';
 @connectToStores([TimeStore], (context) => {
     return context.getStore(TimeStore).getState()
 })
-class Timestamp extends React.Component {
+export default class Timestamp extends React.Component {
     static contextTypes = {
         getStore: React.PropTypes.func,
         executeAction: React.PropTypes.func
@@ -25,5 +25,3 @@ class Timestamp extends React.Component {
         );
     }
 }
-
-export default Timestamp;

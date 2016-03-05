@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router';
 
-class Nav extends React.Component {
+export default class Nav extends React.Component {
     static contextTypes = {
         history: React.PropTypes.object.isRequired,
         location: React.PropTypes.object.isRequired
@@ -19,5 +19,3 @@ class Nav extends React.Component {
         );
     }
 }
-
-export default Nav;

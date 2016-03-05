@@ -1,6 +1,6 @@
 import createStore from 'fluxible/addons/createStore';
 
-const ApplicationStore = createStore({
+export default createStore({
     storeName: 'ApplicationStore',
     handlers: {
         'CHANGE_ROUTE': 'handleNavigate'
@@ -28,5 +28,3 @@ const ApplicationStore = createStore({
         this.currentRoute = state.route;
     }
 });
-
-export default ApplicationStore;

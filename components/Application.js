@@ -5,7 +5,7 @@ import Nav from './Nav';
 import Timestamp from './Timestamp';
 import ApplicationStore from '../stores/ApplicationStore';
 
-class Application extends React.Component {
+export default class Application extends React.Component {
     static contextTypes = {
         getStore: React.PropTypes.func,
         executeAction: React.PropTypes.func
@@ -23,5 +23,3 @@ class Application extends React.Component {
         );
     }
 }
-
-export default Application;

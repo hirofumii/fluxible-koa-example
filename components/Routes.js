@@ -5,12 +5,10 @@ import Home from './Home';
 import About from './About';
 import NotFound from './NotFound';
 
-const routes = (
+export default (
     <Route name="app" path="/" component={Application}>
         <IndexRoute component={Home}/>
         <Route path="about" component={About}/>
         <Route path="*" component={NotFound}/>
     </Route>
 );
-
-export default routes;

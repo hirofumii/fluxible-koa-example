@@ -1,6 +1,6 @@
 import createStore from 'fluxible/addons/createStore';
 
-const TimeStore = createStore({
+export default createStore({
     storeName: 'TimeStore',
     initialize: function () {
         this.time = new Date();
@@ -27,5 +27,3 @@ const TimeStore = createStore({
         this.time = new Date(state.time);
     }
 });
-
-export default TimeStore;

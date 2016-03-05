@@ -36,7 +36,7 @@ server.use((ctx, next) => {
             } else if (renderProps) {
                 const context = app.createContext();
                 context.executeAction(navigateAction, {path: ctx.url}, () => {
-                    const exposed = 'window.App=' + serialize(app.dehydrate(context)) + ';';
+                    const exposed = `window.App=${serialize(app.dehydrate(context))};`;
                     const markup = ReactDOM.renderToString(
                         <FluxibleComponent context={context.getComponentContext()}>
                             <RoutingContext {...renderProps} />
@@ -66,6 +66,6 @@ server.use((ctx, next) => {
 
 const port = process.env.PORT || 3000;
 server.listen(port);
-console.log('Application listening on port ' + port);
+console.log(`Application listening on port ${port}`);
 
 export default server;
