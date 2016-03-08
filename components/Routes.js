@@ -6,7 +6,7 @@ import About from './About';
 import NotFound from './NotFound';
 
 export default (
-    <Route name="app" path="/" component={Application}>
+    <Route path="/" component={Application}>
         <IndexRoute component={Home}/>
         <Route path="about" component={About}/>
         <Route path="*" component={NotFound}/>

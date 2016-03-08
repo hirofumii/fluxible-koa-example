@@ -17,7 +17,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/server';
 import HtmlComponent from './components/Html';
 import FluxibleComponent from 'fluxible-addons-react/FluxibleComponent';
-import { match, RoutingContext } from 'react-router';
+import { match, RouterContext } from 'react-router';
 import app from './app';
 
 const server = new Koa();
@@ -39,7 +39,7 @@ server.use((ctx, next) => {
                     const exposed = `window.App=${serialize(app.dehydrate(context))};`;
                     const markup = ReactDOM.renderToString(
                         <FluxibleComponent context={context.getComponentContext()}>
-                            <RoutingContext {...renderProps} />
+                            <RouterContext {...renderProps} />
                         </FluxibleComponent>
                     );
                     const htmlElement = React.createElement(HtmlComponent, {
