@@ -9,11 +9,11 @@ This project is based on the following repository.
 
 ## Packages used
 
-- Koa v2
+- Koa (2.x)
 - Fluxible
-- React
-- React-router
-- Babel v6
+- React (0.14)
+- React-router (2.x)
+- Babel (6.x)
 - Webpack
 
 
@@ -22,8 +22,8 @@ This project is based on the following repository.
 ### Setup
 
 ```bash
-$ git clone https://github.com/hirofumii/fluxible-koa-example.git fluxible-koa-example
-$ cd fluxible-koa-example
+$ git clone https://github.com/hirofumii/fluxible-koa-example.git myapp
+$ cd myapp
 $ npm install
 ```
 

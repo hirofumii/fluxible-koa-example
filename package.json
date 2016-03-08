@@ -1,6 +1,6 @@
 {
   "name": "fluxible-koa-example",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "A simple example of isomorphic Flux application using Koa, Fluxible, React and React-router",
   "main": "start.js",
   "scripts": {
