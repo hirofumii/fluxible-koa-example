@@ -23,8 +23,8 @@ import app from './app';
 const server = new Koa();
 
 server.use(convert(serve(path.join(__dirname, '/build'))));
-server.use(convert(bodyParser()));
-server.use(convert(logger()));
+server.use(bodyParser());
+server.use(logger());
 
 server.use((ctx, next) => {
     return new Promise((resolve, reject) => {
