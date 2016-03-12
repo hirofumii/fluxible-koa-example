@@ -9,17 +9,17 @@ This project is based on the following repository.
 
 ## Packages used
 
-- Koa (2.x)
-- Fluxible
-- React (0.14)
-- React-router (2.x)
-- Babel (6.x)
-- Webpack
+- **Koa** 2.x
+- **Fluxible**
+- **React** 0.14
+- **React-router** 2.x
+- **Babel** 6.x
+- **Webpack** 2.x
 
 
 ## Get Start
 
-### Setup
+### Install
 
 ```bash
 $ git clone https://github.com/hirofumii/fluxible-koa-example.git myapp
@@ -27,16 +27,26 @@ $ cd myapp
 $ npm install
 ```
 
-### Usage
+### Build
 
 ```bash
-$ npm start
-or
-$ npm run dev
+$ npm run build
 ```
+
+### Start
+
+```bash
+# Development mode
+$ npm run dev
+or
+# Production mode
+$ npm start
+```
+
+Open your browser, and visit `http://localhost:3000` to check the result.
 
 ## Engine
 
-- node v5
+- **node** 5.x
 
 This project has been tested using the node v5.

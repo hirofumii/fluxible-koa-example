@@ -5,8 +5,8 @@
   "main": "start.js",
   "scripts": {
     "build": "webpack & webpack --config webpack.config.production.js",
-    "dev": "nodemon start.js -e js,jsx",
-    "start": "node start.js"
+    "dev": "NODE_ENV=development nodemon start.js -e js,jsx",
+    "start": "NODE_ENV=production node start.js"
   },
   "keywords": [
     "koa",
