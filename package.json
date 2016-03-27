@@ -28,8 +28,8 @@
     "koa-convert": "^1.2.0",
     "koa-logger": "^2.0.0",
     "koa-static": "^2.0.0",
-    "react": "^0.14.7",
-    "react-dom": "^0.14.7",
+    "react": "^15.0.0-rc.2",
+    "react-dom": "^15.0.0-rc.2",
     "react-router": "^2.0.1",
     "serialize-javascript": "^1.0.0"
   },
