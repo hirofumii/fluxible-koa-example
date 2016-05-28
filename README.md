@@ -49,4 +49,4 @@ Open your browser, and visit `http://localhost:3000` to check the result.
 
 - **node** 6.x
 
-This project has been tested using the node v5.
+This project has been tested using the node v6.
