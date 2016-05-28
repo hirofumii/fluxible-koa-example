@@ -16,7 +16,7 @@
     "babel"
   ],
   "dependencies": {
-    "babel-core": "^6.8.0",
+    "babel-core": "^6.9.0",
     "babel-preset-es2015-node5": "^1.2.0",
     "babel-preset-react": "^6.5.0",
     "babel-preset-stage-1": "^6.5.0",
@@ -24,13 +24,13 @@
     "fluxible-addons-react": "^0.2.8",
     "fluxible-plugin-fetchr": "^0.3.0",
     "koa": "^2.0.0",
-    "koa-bodyparser": "^3.0.0",
+    "koa-bodyparser": "^3.1.0",
     "koa-convert": "^1.2.0",
     "koa-logger": "^2.0.0",
-    "koa-static": "^2.0.0",
-    "react": "^15.0.2",
-    "react-dom": "^15.0.2",
-    "react-router": "^2.4.0",
+    "koa-static": "^3.0.0",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "react-router": "^2.4.1",
     "serialize-javascript": "^1.0.0"
   },
   "devDependencies": {
@@ -38,7 +38,7 @@
     "babel-preset-es2015-webpack": "^6.4.1",
     "json-loader": "^0.5.1",
     "nodemon": "^1.9.2",
-    "webpack": "^2.1.0-beta.6"
+    "webpack": "^2.1.0-beta.7"
   },
   "author": "hirofumii",
   "license": "MIT",
