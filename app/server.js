@@ -22,7 +22,7 @@ import app from './app';
 
 const server = new Koa();
 
-server.use(convert(serve(path.join(__dirname, '/build'))));
+server.use(serve(path.join(__dirname, '/public')));
 server.use(bodyParser());
 server.use(logger());
 

@@ -6,11 +6,11 @@ const webpackConfig = {
         extensions: ['', '.js', '.jsx']
     },
     entry: [
-        './client.js'
+        './app/client.js'
     ],
     output: {
-        path: path.resolve('./build/js'),
-        publicPath: '/public/js/',
+        path: path.resolve('./app/public/js'),
+        publicPath: '/app/public/js/',
         filename: 'main.js'
     },
     module: {
