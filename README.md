@@ -47,6 +47,6 @@ Open your browser, and visit `http://localhost:3000` to check the result.
 
 ## Engine
 
-- **node** 5.x
+- **node** 6.x
 
 This project has been tested using the node v5.
