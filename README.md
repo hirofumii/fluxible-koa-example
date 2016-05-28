@@ -12,7 +12,7 @@ This project is based on the following repository.
 - **Koa** 2.x
 - **Fluxible**
 - **React** 15.x
-- **React-router** 2.x
+- **React-router** 3.x
 - **Babel** 6.x
 - **Webpack** 2.x
 
