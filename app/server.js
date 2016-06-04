@@ -9,7 +9,6 @@ import Koa from 'koa';
 import bodyParser from 'koa-bodyparser';
 import serve from 'koa-static';
 import logger from 'koa-logger';
-import convert from 'koa-convert';
 import path from 'path';
 import serialize from 'serialize-javascript';
 import navigateAction from './actions/navigate';

@@ -19,7 +19,7 @@ const webpackConfig = {
                 test: /\.(js|jsx)$/,
                 exclude: /node_modules/,
                 loaders: [
-                    'babel?presets[]=es2015-webpack,presets[]=react,presets[]=stage-1'
+                    'babel?presets[]=es2015-webpack,presets[]=react,plugins[]=transform-class-properties'
                 ]
             },
             { test: /\.json$/, loader: 'json-loader'}
