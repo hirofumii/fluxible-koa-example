@@ -1,5 +1,7 @@
 # Fluxible Koa Example
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/hirofumii/fluxible-koa-example.svg)](https://greenkeeper.io/)
+
 A simple example of isomorphic Flux application using Koa, Fluxible, React and React-router.
 
 This project is based on the following repository.
